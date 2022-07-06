@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "vazir";
+    src: url("../fonts/vazir.eot") format("eot");
+    src: url("../fonts/vazir.ttf") format("truetype"), url("../fonts/vazir.woff") format("woff"), url("../fonts/vazir.woff") format("woff2");
+}
+
+body {
+    font-family: "vazir";
+    overflow-x: hidden;
+}
+
+.home-page {
+    width: 100%;
+    background: url("../images/10.svg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.home-page header {
+    width: 100%;
+}
+
+.home-page .navbar > .navbar-nav > .nav-item > .nav-link {
+    color: #fff;
+}
+
+.home-page .navbar .logo {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.home-page .navbar .logo .auth {
+    margin-left: 15px;
+    display: block;
+    width: 150px;
+    border: 2px solid #4527a0;
+    background: #4527a0;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.home-page .navbar .logo .auth:hover {
+    background: #fff;
+    color: #4527a0;
+}
