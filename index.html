@@ -6,16 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles/msi.css">
   <link rel="stylesheet" href="./styles/style.css">
-  <title>آموزشگاه ممد</title>
+  <link rel="stylesheet" href="./styles/owl.carousel.min.css">
+  <title>آموزشگاه</title>
 </head>
 
 <body>
 
-  <!--Home-page-->
   <section class="home-page">
     <header>
       <div class="container">
         <nav class="navbar">
+          <div class="hamburger-menu">
+            <span></span>
+          </div>
           <ul class="navbar-nav">
             <li class="nav-item">
               <a href="" class="nav-link">خانه</a>
@@ -41,6 +44,58 @@
           </div>
         </nav>
       </div>
+      <div class="overlay"></div>
+      <div class="navbar-responsive">
+
+        <div class="close">
+          <i class="fas fa-times"></i>
+        </div>
+        <div class="course-list">
+          <h4>آموزش های تاپ لرن</h4>
+          <ul>
+            <li>
+              <a href="">برنامه نویسی موبایل</a>
+              <span class="submenu"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+              <ul>
+                <li><a href="">جاوا</a></li>
+                <li><a href="">فلاتر</a></li>
+                <li><a href="">دارت</a></li>
+                <li><a href="">زامارین</a></li>
+
+              </ul>
+            </li>
+            <li>
+              <a href="">برنامه نویسی وب </a>
+              <span class="submenu"><i class="fas fa-plus"></i><i class="fas fa-minus"></i></span>
+              <ul>
+                <li><a href="">php</a></li>
+                <li><a href="">پایتون</a></li>
+                <li><a href="">node js</a></li>
+                <li><a href="">asp.net core</a></li>
+                <li><a href="">asp.net mvc</a></li>
+                <li><a href="">wordpress</a></li>
+
+              </ul>
+            </li>
+            <li><a href="">طراحی</a></li>
+            <li><a href="">ویندوز</a></li>
+            <li><a href="">سئو</a></li>
+            <li><a href="">الکترونیک</a></li>
+          </ul>
+        </div>
+        <div class="quick-list">
+          <h4>منوی دسترسی </h4>
+          <ul>
+            <li><a href="">خانه</a></li>
+            <li><a href="">مدرسین</a></li>
+            <li><a href="">همکاری با ما</a></li>
+            <li><a href="">آخرین دوره ها</a></li>
+            <li><a href="">بلاگ</a></li>
+            <li><a href="">درباره ما</a></li>
+            <li><a href="">خدمات ما</a></li>
+          </ul>
+        </div>
+      </div>
     </header>
 
 
@@ -50,7 +105,7 @@
           <div class="row">
             <div class="col-12">
               <div class="home-page-title">
-                <p>خودآموزی ، کسب تجربه ، ورود به بازار کار با تاپ لرن
+                <p>خودآموزی ، کسب تجربه ، ورود به بازار کار
                   با کمترینــــ هزینه خودت حرفه ایــــ یاد بگیـر</p>
               </div>
             </div>
@@ -68,21 +123,21 @@
                   <div class="col-4">
                     <div class="statistics-item">
                       <img src="./images/stat-time.svg" alt="">
-                      <span class="statistics-item-count">248,258</span>
+                      <span class="statistics-item-count counter">248,258</span>
                       <h5>دقیقه آموزش</h5>
                     </div>
                   </div>
                   <div class="col-4">
                     <div class="statistics-item">
                       <img src="./images/stat-teacher.svg" alt="">
-                      <span class="statistics-item-count">134</span>
+                      <span class="statistics-item-count counter">134</span>
                       <h5>مدرس مجرب</h5>
                     </div>
                   </div>
                   <div class="col-4">
                     <div class="statistics-item">
                       <img src="./images/stat-student.svg" alt="">
-                      <span class="statistics-item-count">225,179</span>
+                      <span class="statistics-item-count counter">225,179</span>
                       <h5>نفر دانشجو</h5>
                     </div>
                   </div>
@@ -95,7 +150,7 @@
     </div>
   </section>
 
-  <!--Mega-Menu-->
+  <!--mega-menu-->
   <section class="mega-menu">
     <div class="container">
       <nav class="navbar">
@@ -175,7 +230,7 @@
     </div>
   </section>
 
-  <!--Service-->
+  <!--service-->
   <section class="service">
     <div class="title">
       <h2>با ما!</h2>
@@ -186,8 +241,8 @@
           <div class="service-item">
             <img src="./images/service/1.svg" alt="">
             <h3>متخصص شو</h3>
-            <p>اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم
-              شناخته می‌شوند.</p>
+            <p>اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام
+              لورم ایپسوم شناخته می‌شوند.</p>
           </div>
         </div>
 
@@ -195,8 +250,8 @@
           <div class="service-item">
             <img src="./images/service/friendship.svg" alt="">
             <h3>کار تیمی</h3>
-            <p>اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم
-              شناخته می‌شوند.</p>
+            <p>اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام
+              لورم ایپسوم شناخته می‌شوند.</p>
           </div>
         </div>
 
@@ -204,24 +259,1298 @@
           <div class="service-item">
             <img src="./images/service/project.svg" alt="">
             <h3>سریع و با کیفیت</h3>
-            <p>اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم
-              شناخته می‌شوند.</p>
+            <p>اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام
+              لورم ایپسوم شناخته می‌شوند.</p>
           </div>
         </div>
         <div class="col-12 col-sm-6 col-md-3">
           <div class="service-item">
             <img src="./images/service/target.svg" alt="">
             <h3>هدف گذاری مطمئن</h3>
-            <p>اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام لورم ایپسوم
-              شناخته می‌شوند.</p>
+            <p>اگر شما یک طراح هستین و یا با طراحی های گرافیکی سروکار دارید به متن های برخورده اید که با نام
+              لورم ایپسوم شناخته می‌شوند.</p>
           </div>
         </div>
       </div>
   </section>
 
+  <!--about-->
+  <section class="about">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6">
+          <div class="title">
+            <h2>تیم ما</h2>
+          </div>
+          <div class="about-content">
+            <p>ما میتونید با ما زیباترین وب سایت هارو داشته باشین و اینو در نظر بگیرید که فقط وب سایت نیست و
+              ما میتونیم در حوزه طراحی کارت ویزیت و بروشور و هر کاری که در حیطه طراحی گرافیکی و طراحی وب
+              هست رو براتون انجام بدیم و یه خبر عالی هم دارم براتون اونم اینه که میتونید حتی طراحی
+              اپلیکیشن های خودتون هم به ما بسپارید پس با ما جای نگرانی نیست تیم ما یه تیم کامل و متخصص هست
+              و کار تیمی یکی از مهمترین راه های رسیدن به موفقیت پس شما با در اختیار گذاشتن کارتون به ما
+              نگران هیچی نباشید ما در مدت زمان کوتاهی شمارو به بهترین چیزها میرسونیم دیجیتال تاپ لرن یعنی
+              سریع و مطمئن</p>
+            <a href="#">بیشتر آشنا شیم</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="about-img">
+            <img src="./images/about.svg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!--last-update-->
+  <section class="last-update">
+    <div class="title">
+      <h2>آخرین بروزرسانی ها!</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="last-update-item">
+            <a href="">
+              <div class="last-item-img">
+                <img src="./images/webdesign/70 پروژه وب با جاوا اسکریپت.png" alt="">
+              </div>
+              <div class="last-update-desc">
+                <div class="last-update-desc-title">
+                  <h4>70 پروژه وب با جاوا اسکریپت</h4>
+                </div>
+                <div class="last-update-desc-info">
+                  <span>
+                    <i class="fas fa-user"></i>
+                    <h5>فرزاد معصومی</h5>
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>
+                    <h5>16</h5>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="last-update-price">
+              <span>
+                <i class="fas fa-clock"> </i>
+                <h5>16:08:20</h5>
+              </span>
+              <span class="price">
+                <h5>150,000 تومان</h5>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="last-update-item">
+            <a href="">
+              <div class="last-item-img">
+                <img src="./images/webdesign/csharp.jpg" alt="">
+              </div>
+              <div class="last-update-desc">
+                <div class="last-update-desc-title">
+                  <h4>70 پروژه وب با جاوا اسکریپت</h4>
+                </div>
+                <div class="last-update-desc-info">
+                  <span>
+                    <i class="fas fa-user"></i>
+                    <h5>فرزاد معصومی</h5>
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>
+                    <h5>16</h5>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="last-update-price">
+              <span>
+                <i class="fas fa-clock"> </i>
+                <h5>16:08:20</h5>
+              </span>
+              <span class="price">
+                <h5>150,000 تومان</h5>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="last-update-item">
+            <a href="">
+              <div class="last-item-img">
+                <img src="./images/webdesign/flutter.jpg" alt="">
+              </div>
+              <div class="last-update-desc">
+                <div class="last-update-desc-title">
+                  <h4>آموزش فلاتر</h4>
+                </div>
+                <div class="last-update-desc-info">
+                  <span>
+                    <i class="fas fa-user"></i>
+                    <h5>پور</h5>
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>
+                    <h5>16</h5>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="last-update-price">
+              <span>
+                <i class="fas fa-clock"> </i>
+                <h5>14:08:20</h5>
+              </span>
+              <span class="price">
+                <h5>150,000 تومان</h5>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="last-update-item">
+            <a href="">
+              <div class="last-item-img">
+                <img src="./images/webdesign/pwa.jpg" alt="">
+              </div>
+              <div class="last-update-desc">
+                <div class="last-update-desc-title">
+                  <h4>آموزش pwa</h4>
+                </div>
+                <div class="last-update-desc-info">
+                  <span>
+                    <i class="fas fa-user"></i>
+                    <h5>مدائنی</h5>
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>
+                    <h5>16</h5>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="last-update-price">
+              <span>
+                <i class="fas fa-clock"> </i>
+                <h5>16:08:20</h5>
+              </span>
+              <span class="price">
+                <h5>350,000 تومان</h5>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="last-update-item">
+            <a href="">
+              <div class="last-item-img">
+                <img src="./images/webdesign/دوره materialize css.png" alt="">
+              </div>
+              <div class="last-update-desc">
+                <div class="last-update-desc-title">
+                  <h4>آموزش materialize css</h4>
+                </div>
+                <div class="last-update-desc-info">
+                  <span>
+                    <i class="fas fa-user"></i>
+                    <h5>فرزاد معصومی</h5>
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>
+                    <h5>16</h5>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="last-update-price">
+              <span>
+                <i class="fas fa-clock"> </i>
+                <h5>04:08:20</h5>
+              </span>
+              <span class="price">
+                <h5>رایگانـ</h5>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="last-update-item">
+            <a href="">
+              <div class="last-item-img">
+                <img src="./images/webdesign/js.jpg" alt="">
+              </div>
+              <div class="last-update-desc">
+                <div class="last-update-desc-title">
+                  <h4>آموزش جاوا اسکریپت</h4>
+                </div>
+                <div class="last-update-desc-info">
+                  <span>
+                    <i class="fas fa-user"></i>
+                    <h5>فرزاد معصومی</h5>
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>
+                    <h5>16</h5>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="last-update-price">
+              <span>
+                <i class="fas fa-clock"> </i>
+                <h5>26:08:20</h5>
+              </span>
+              <span class="price">
+                <h5>رایگانـ</h5>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="last-update-item">
+            <a href="">
+              <div class="last-item-img">
+                <img src="./images/webdesign/jquery.jpg" alt="">
+              </div>
+              <div class="last-update-desc">
+                <div class="last-update-desc-title">
+                  <h4>آموزش jquery</h4>
+                </div>
+                <div class="last-update-desc-info">
+                  <span>
+                    <i class="fas fa-user"></i>
+                    <h5>اوردوخانی</h5>
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>
+                    <h5>16</h5>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="last-update-price">
+              <span>
+                <i class="fas fa-clock"> </i>
+                <h5>08:08:20</h5>
+              </span>
+              <span class="price">
+                <h5>رایگانـ</h5>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-3">
+          <div class="last-update-item">
+            <a href="">
+              <div class="last-item-img">
+                <img src="./images/webdesign/responsive.png" alt="">
+              </div>
+              <div class="last-update-desc">
+                <div class="last-update-desc-title">
+                  <h4>70 پروژه وب با جاوا اسکریپت</h4>
+                </div>
+                <div class="last-update-desc-info">
+                  <span>
+                    <i class="fas fa-user"></i>
+                    <h5>فرزاد معصومی</h5>
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>
+                    <h5>16</h5>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="last-update-price">
+              <span>
+                <i class="fas fa-clock"> </i>
+                <h5>16:08:20</h5>
+              </span>
+              <span class="price">
+                <h5>رایگانـ</h5>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--webDesign-->
+  <section class="webDesign">
+    <div class="title">
+      <h2>متخصص طراحی شو!</h2>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="owl-carousel owl-theme" id="webdesign">
+          <div class="col-lg-12">
+            <div class="webDesign-item">
+              <a href="">
+                <div class="webDesign-item-img">
+                  <img src="./images/webdesign/دوره materialize css.png" alt="">
+                </div>
+                <div class="webDesign-item-desc">
+                  <div class="webDesign-item-desc-title">
+                    <h4>آموزش materialize css</h4>
+                  </div>
+                  <div class="webDesign-item-desc-info">
+                    <span>
+                      <i class="fas fa-user"></i>
+                      <h5>فرزاد معصومی</h5>
+                    </span>
+                    <span>
+                      <i class="fas fa-comment"></i>
+                      <h5>16</h5>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div class="webDesign-item-price">
+                <span>
+                  <i class="fas fa-clock"> </i>
+                  <h5>04:08:20</h5>
+                </span>
+                <span class="price">
+                  <h5>رایگانـ</h5>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="webDesign-item">
+              <a href="">
+                <div class="webDesign-item-img">
+                  <img src="./images/webdesign/bootstrap.jpg" alt="">
+                </div>
+                <div class="webDesign-item-desc">
+                  <div class="webDesign-item-desc-title">
+                    <h4>آموزش boostrap</h4>
+                  </div>
+                  <div class="webDesign-item-desc-info">
+                    <span>
+                      <i class="fas fa-user"></i>
+                      <h5>مدائنی</h5>
+                    </span>
+                    <span>
+                      <i class="fas fa-comment"></i>
+                      <h5>16</h5>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div class="webDesign-item-price">
+                <span>
+                  <i class="fas fa-clock"> </i>
+                  <h5>24:08:20</h5>
+                </span>
+                <span class="price">
+                  <h5>400,0000</h5>
+                </span>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="webDesign-item">
+              <a href="">
+                <div class="webDesign-item-img">
+                  <img src="./images/webdesign/jquery.jpg" alt="">
+                </div>
+                <div class="webDesign-item-desc">
+                  <div class="webDesign-item-desc-title">
+                    <h4>آموزش jquery</h4>
+                  </div>
+                  <div class="webDesign-item-desc-info">
+                    <span>
+                      <i class="fas fa-user"></i>
+                      <h5>اردوخانی</h5>
+                    </span>
+                    <span>
+                      <i class="fas fa-comment"></i>
+                      <h5>16</h5>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div class="webDesign-item-price">
+                <span>
+                  <i class="fas fa-clock"> </i>
+                  <h5>14:08:20</h5>
+                </span>
+                <span class="price">
+                  <h5>رایگانـ</h5>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="webDesign-item">
+              <a href="">
+                <div class="webDesign-item-img">
+                  <img src="./images/webdesign/react.jpg" alt="">
+                </div>
+                <div class="webDesign-item-desc">
+                  <div class="webDesign-item-desc-title">
+                    <h4>آموزش react js</h4>
+                  </div>
+                  <div class="webDesign-item-desc-info">
+                    <span>
+                      <i class="fas fa-user"></i>
+                      <h5>قربانی</h5>
+                    </span>
+                    <span>
+                      <i class="fas fa-comment"></i>
+                      <h5>16</h5>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div class="webDesign-item-price">
+                <span>
+                  <i class="fas fa-clock"> </i>
+                  <h5>24:08:20</h5>
+                </span>
+                <span class="price">
+                  <h5>200,000</h5>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="webDesign-item">
+              <a href="">
+                <div class="webDesign-item-img">
+                  <img src="./images/webdesign/vue.jpg" alt="">
+                </div>
+                <div class="webDesign-item-desc">
+                  <div class="webDesign-item-desc-title">
+                    <h4>آموزش vue js</h4>
+                  </div>
+                  <div class="webDesign-item-desc-info">
+                    <span>
+                      <i class="fas fa-user"></i>
+                      <h5>اردوخانی</h5>
+                    </span>
+                    <span>
+                      <i class="fas fa-comment"></i>
+                      <h5>16</h5>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div class="webDesign-item-price">
+                <span>
+                  <i class="fas fa-clock"> </i>
+                  <h5>24:08:20</h5>
+                </span>
+                <span class="price">
+                  <h5>100,000</h5>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="webDesign-item">
+              <a href="">
+                <div class="webDesign-item-img">
+                  <img src="./images/webdesign/70 پروژه وب با جاوا اسکریپت.png" alt="">
+                </div>
+                <div class="webDesign-item-desc">
+                  <div class="webDesign-item-desc-title">
+                    <h4>آموزش 70 پروژه وب با جاوا اسکریپت</h4>
+                  </div>
+                  <div class="webDesign-item-desc-info">
+                    <span>
+                      <i class="fas fa-user"></i>
+                      <h5>فرزاد معصومی</h5>
+                    </span>
+                    <span>
+                      <i class="fas fa-comment"></i>
+                      <h5>16</h5>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div class="webDesign-item-price">
+                <span>
+                  <i class="fas fa-clock"> </i>
+                  <h5>20:08:20</h5>
+                </span>
+                <span class="price">
+                  <h5>150,0000</h5>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="webDesign-item">
+              <a href="">
+                <div class="webDesign-item-img">
+                  <img src="./images/webdesign/js.jpg" alt="">
+                </div>
+                <div class="webDesign-item-desc">
+                  <div class="webDesign-item-desc-title">
+                    <h4>آموزش جاوا اسکریپت</h4>
+                  </div>
+                  <div class="webDesign-item-desc-info">
+                    <span>
+                      <i class="fas fa-user"></i>
+                      <h5>مدائنی</h5>
+                    </span>
+                    <span>
+                      <i class="fas fa-comment"></i>
+                      <h5>16</h5>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div class="webDesign-item-price">
+                <span>
+                  <i class="fas fa-clock"> </i>
+                  <h5>24:08:20</h5>
+                </span>
+                <span class="price">
+                  <h5>رایگانـ</h5>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--popular-course-->
+  <section class="popular-course">
+    <div class="title">
+      <h2>محبوب ترین دوره ها!</h2>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col sm-6 col-md-3">
+          <div class="popular-course-item">
+            <a href="">
+              <div class="popular-course-item-img">
+                <img src="./images/webdesign/js.jpg" alt="">
+              </div>
+              <div class="popular-course-desc">
+                <div class="popular-course-desc-title">
+                  <h4>آموزش جاوا اسکریپت</h4>
+                </div>
+                <div class="popular-course-desc-info">
+                  <span>
+                    <i class="fas fa-user"></i>
+                    <h5>مدائنی</h5>
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>
+                    <h5>16</h5>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="popular-course-price">
+              <span>
+                <i class="fas fa-clock"> </i>
+                <h5>16:08:20</h5>
+              </span>
+              <span class="price">
+                <h5>رایگانـ</h5>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col sm-6 col-md-3">
+          <div class="popular-course-item">
+            <a href="">
+              <div class="popular-course-item-img">
+                <img src="./images/webdesign/python.jpg" alt="">
+              </div>
+              <div class="popular-course-desc">
+                <div class="popular-course-desc-title">
+                  <h4>آموزش پایتون</h4>
+                </div>
+                <div class="popular-course-desc-info">
+                  <span>
+                    <i class="fas fa-user"></i>
+                    <h5>اردوخانی</h5>
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>
+                    <h5>16</h5>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="popular-course-price">
+              <span>
+                <i class="fas fa-clock"> </i>
+                <h5>16:08:20</h5>
+              </span>
+              <span class="price">
+                <h5>رایگانـ</h5>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col sm-6 col-md-3">
+          <div class="popular-course-item">
+            <a href="">
+              <div class="popular-course-item-img">
+                <img src="./images/webdesign/php.jpg" alt="">
+              </div>
+              <div class="popular-course-desc">
+                <div class="popular-course-desc-title">
+                  <h4>آموزش php</h4>
+                </div>
+                <div class="popular-course-desc-info">
+                  <span>
+                    <i class="fas fa-user"></i>
+                    <h5>خسروجردی</h5>
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>
+                    <h5>16</h5>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="popular-course-price">
+              <span>
+                <i class="fas fa-clock"> </i>
+                <h5>16:08:20</h5>
+              </span>
+              <span class="price">
+                <h5>رایگانـ</h5>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col sm-6 col-md-3">
+          <div class="popular-course-item">
+            <a href="">
+              <div class="popular-course-item-img">
+                <img src="./images/webdesign/csharp.jpg" alt="">
+              </div>
+              <div class="popular-course-desc">
+                <div class="popular-course-desc-title">
+                  <h4>آموزش c#</h4>
+                </div>
+                <div class="popular-course-desc-info">
+                  <span>
+                    <i class="fas fa-user"></i>
+                    <h5>مدائنی</h5>
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>
+                    <h5>16</h5>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="popular-course-price">
+              <span>
+                <i class="fas fa-clock"> </i>
+                <h5>16:08:20</h5>
+              </span>
+              <span class="price">
+                <h5>رایگانـ</h5>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col sm-6 col-md-3">
+          <div class="popular-course-item">
+            <a href="">
+              <div class="popular-course-item-img">
+                <img src="./images/webdesign/pwa.jpg" alt="">
+              </div>
+              <div class="popular-course-desc">
+                <div class="popular-course-desc-title">
+                  <h4>آموزش pwa</h4>
+                </div>
+                <div class="popular-course-desc-info">
+                  <span>
+                    <i class="fas fa-user"></i>
+                    <h5>مدائنی</h5>
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>
+                    <h5>16</h5>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="popular-course-price">
+              <span>
+                <i class="fas fa-clock"> </i>
+                <h5>16:08:20</h5>
+              </span>
+              <span class="price">
+                <h5>رایگانـ</h5>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col sm-6 col-md-3">
+          <div class="popular-course-item">
+            <a href="">
+              <div class="popular-course-item-img">
+                <img src="./images/webdesign/jquery.jpg" alt="">
+              </div>
+              <div class="popular-course-desc">
+                <div class="popular-course-desc-title">
+                  <h4>آموزش جی کوئری</h4>
+                </div>
+                <div class="popular-course-desc-info">
+                  <span>
+                    <i class="fas fa-user"></i>
+                    <h5>اردوخانی</h5>
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>
+                    <h5>16</h5>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="popular-course-price">
+              <span>
+                <i class="fas fa-clock"> </i>
+                <h5>16:08:20</h5>
+              </span>
+              <span class="price">
+                <h5>رایگانـ</h5>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col sm-6 col-md-3">
+          <div class="popular-course-item">
+            <a href="">
+              <div class="popular-course-item-img">
+                <img src="./images/webdesign/دوره materialize css.png" alt="">
+              </div>
+              <div class="popular-course-desc">
+                <div class="popular-course-desc-title">
+                  <h4>آموزش materialize css</h4>
+                </div>
+                <div class="popular-course-desc-info">
+                  <span>
+                    <i class="fas fa-user"></i>
+                    <h5>فرزاد معصومی</h5>
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>
+                    <h5>16</h5>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="popular-course-price">
+              <span>
+                <i class="fas fa-clock"> </i>
+                <h5>16:08:20</h5>
+              </span>
+              <span class="price">
+                <h5>رایگانـ</h5>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col sm-6 col-md-3">
+          <div class="popular-course-item">
+            <a href="">
+              <div class="popular-course-item-img">
+                <img src="./images/webdesign/responsive.png" alt="">
+              </div>
+              <div class="popular-course-desc">
+                <div class="popular-course-desc-title">
+                  <h4>70 پروژه وب با جاوا اسکریپت</h4>
+                </div>
+                <div class="popular-course-desc-info">
+                  <span>
+                    <i class="fas fa-user"></i>
+                    <h5>فرزاد معصومی</h5>
+                  </span>
+                  <span>
+                    <i class="fas fa-comment"></i>
+                    <h5>16</h5>
+                  </span>
+                </div>
+              </div>
+            </a>
+            <div class="popular-course-price">
+              <span>
+                <i class="fas fa-clock"> </i>
+                <h5>16:08:20</h5>
+              </span>
+              <span class="price">
+                <h5>رایگانـ</h5>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Web Developer-->
+  <section class="webDeveloper">
+    <div class="title">
+      <h2>متخصص برنامه نویسی شو!</h2>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="owl-carousel owl-theme" id="webDeveloper">
+          <div class="col-lg-12">
+            <div class="webDeveloper-item">
+              <a href="">
+                <div class="webDeveloper-item-img">
+                  <img src="./images/webdesign/php.jpg" alt="">
+                </div>
+                <div class="webDeveloper-item-desc">
+                  <div class="webDeveloper-item-desc-title">
+                    <h4>آموزش materialize css</h4>
+                  </div>
+                  <div class="webDeveloper-item-desc-info">
+                    <span>
+                      <i class="fas fa-user"></i>
+                      <h5>فرزاد معصومی</h5>
+                    </span>
+                    <span>
+                      <i class="fas fa-comment"></i>
+                      <h5>16</h5>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div class="webDeveloper-item-price">
+                <span>
+                  <i class="fas fa-clock"> </i>
+                  <h5>04:08:20</h5>
+                </span>
+                <span class="price">
+                  <h5>رایگانـ</h5>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="webDeveloper-item">
+              <a href="">
+                <div class="webDeveloper-item-img">
+                  <img src="./images/webdesign/python.jpg" alt="">
+                </div>
+                <div class="webDeveloper-item-desc">
+                  <div class="webDeveloper-item-desc-title">
+                    <h4>آموزش materialize css</h4>
+                  </div>
+                  <div class="webDeveloper-item-desc-info">
+                    <span>
+                      <i class="fas fa-user"></i>
+                      <h5>فرزاد معصومی</h5>
+                    </span>
+                    <span>
+                      <i class="fas fa-comment"></i>
+                      <h5>16</h5>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div class="webDeveloper-item-price">
+                <span>
+                  <i class="fas fa-clock"> </i>
+                  <h5>04:08:20</h5>
+                </span>
+                <span class="price">
+                  <h5>رایگانـ</h5>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="webDeveloper-item">
+              <a href="">
+                <div class="webDeveloper-item-img">
+                  <img src="./images/webdesign/csharp.jpg" alt="">
+                </div>
+                <div class="webDeveloper-item-desc">
+                  <div class="webDeveloper-item-desc-title">
+                    <h4>آموزش materialize css</h4>
+                  </div>
+                  <div class="webDeveloper-item-desc-info">
+                    <span>
+                      <i class="fas fa-user"></i>
+                      <h5>فرزاد معصومی</h5>
+                    </span>
+                    <span>
+                      <i class="fas fa-comment"></i>
+                      <h5>16</h5>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div class="webDeveloper-item-price">
+                <span>
+                  <i class="fas fa-clock"> </i>
+                  <h5>04:08:20</h5>
+                </span>
+                <span class="price">
+                  <h5>رایگانـ</h5>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="webDeveloper-item">
+              <a href="">
+                <div class="webDeveloper-item-img">
+                  <img src="./images/webdesign/js.jpg" alt="">
+                </div>
+                <div class="webDeveloper-item-desc">
+                  <div class="webDeveloper-item-desc-title">
+                    <h4>آموزش جاوا اسکریپت</h4>
+                  </div>
+                  <div class="webDeveloper-item-desc-info">
+                    <span>
+                      <i class="fas fa-user"></i>
+                      <h5>مدائنی</h5>
+                    </span>
+                    <span>
+                      <i class="fas fa-comment"></i>
+                      <h5>16</h5>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div class="webDeveloper-item-price">
+                <span>
+                  <i class="fas fa-clock"> </i>
+                  <h5>04:08:20</h5>
+                </span>
+                <span class="price">
+                  <h5>رایگانـ</h5>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="webDeveloper-item">
+              <a href="">
+                <div class="webDeveloper-item-img">
+                  <img src="./images/webdesign/دوره materialize css.png" alt="">
+                </div>
+                <div class="webDeveloper-item-desc">
+                  <div class="webDeveloper-item-desc-title">
+                    <h4>آموزش materialize css</h4>
+                  </div>
+                  <div class="webDeveloper-item-desc-info">
+                    <span>
+                      <i class="fas fa-user"></i>
+                      <h5>فرزاد معصومی</h5>
+                    </span>
+                    <span>
+                      <i class="fas fa-comment"></i>
+                      <h5>16</h5>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div class="webDeveloper-item-price">
+                <span>
+                  <i class="fas fa-clock"> </i>
+                  <h5>04:08:20</h5>
+                </span>
+                <span class="price">
+                  <h5>رایگانـ</h5>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="webDeveloper-item">
+              <a href="">
+                <div class="webDeveloper-item-img">
+                  <img src="./images/webdesign/vue.jpg" alt="">
+                </div>
+                <div class="webDeveloper-item-desc">
+                  <div class="webDeveloper-item-desc-title">
+                    <h4>آموزش vue js</h4>
+                  </div>
+                  <div class="webDeveloper-item-desc-info">
+                    <span>
+                      <i class="fas fa-user"></i>
+                      <h5>اردوخانی</h5>
+                    </span>
+                    <span>
+                      <i class="fas fa-comment"></i>
+                      <h5>16</h5>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div class="webDeveloper-item-price">
+                <span>
+                  <i class="fas fa-clock"> </i>
+                  <h5>04:08:20</h5>
+                </span>
+                <span class="price">
+                  <h5>رایگانـ</h5>
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="webDeveloper-item">
+              <a href="">
+                <div class="webDeveloper-item-img">
+                  <img src="./images/webdesign/jquery.jpg" alt="">
+                </div>
+                <div class="webDeveloper-item-desc">
+                  <div class="webDeveloper-item-desc-title">
+                    <h4>آموزش جی کوئری</h4>
+                  </div>
+                  <div class="webDeveloper-item-desc-info">
+                    <span>
+                      <i class="fas fa-user"></i>
+                      <h5>اردوخانی</h5>
+                    </span>
+                    <span>
+                      <i class="fas fa-comment"></i>
+                      <h5>16</h5>
+                    </span>
+                  </div>
+                </div>
+              </a>
+              <div class="webDeveloper-item-price">
+                <span>
+                  <i class="fas fa-clock"> </i>
+                  <h5>04:08:20</h5>
+                </span>
+                <span class="price">
+                  <h5>رایگانـ</h5>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Blog-->
+  <section class="blog">
+    <div class="title">
+      <h2>بلاگ!</h2>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <div class="blog-item">
+            <img src="./images/blog/1.png" alt="">
+            <div class="blog-desc">
+              <h2><a href="">آیا باید از NET Standard. خداحافظی کنیم</a></h2>
+              <p>با اعلان NET 5. در سال گذشته و اعلان‌های بعدی منتهی به MSBuild 2020، یک سوال بزرگی که پیش
+                می‌آید این است که</p>
+            </div>
+            <div class="author">
+              <span>
+                <i class="fas fa-eye"></i>
+                1400
+              </span>
+              <span>
+                <i class="fas fa-user"></i>
+                مدائنی
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="blog-item">
+            <img src="./images/blog/2.png" alt="">
+            <div class="blog-desc">
+              <h2><a href="">آیا باید از NET Standard. خداحافظی کنیم</a></h2>
+              <p>با اعلان NET 5. در سال گذشته و اعلان‌های بعدی منتهی به MSBuild 2020، یک سوال بزرگی که پیش
+                می‌آید این است که</p>
+            </div>
+            <div class="author">
+              <span>
+                <i class="fas fa-eye"></i>
+                1400
+              </span>
+              <span>
+                <i class="fas fa-user"></i>
+                مدائنی
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="blog-item">
+            <img src="./images/blog/3.png" alt="">
+            <div class="blog-desc">
+              <h2><a href="">آیا باید از NET Standard. خداحافظی کنیم</a></h2>
+              <p>با اعلان NET 5. در سال گذشته و اعلان‌های بعدی منتهی به MSBuild 2020، یک سوال بزرگی که پیش
+                می‌آید این است که</p>
+            </div>
+            <div class="author">
+              <span>
+                <i class="fas fa-eye"></i>
+                1400
+              </span>
+              <span>
+                <i class="fas fa-user"></i>
+                مدائنی
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="blog-item">
+            <img src="./images/blog/4.png" alt="">
+            <div class="blog-desc">
+              <h2><a href="">آیا باید از NET Standard. خداحافظی کنیم</a></h2>
+              <p>با اعلان NET 5. در سال گذشته و اعلان‌های بعدی منتهی به MSBuild 2020، یک سوال بزرگی که پیش
+                می‌آید این است که</p>
+            </div>
+            <div class="author">
+              <span>
+                <i class="fas fa-eye"></i>
+                1400
+              </span>
+              <span>
+                <i class="fas fa-user"></i>
+                مدائنی
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="footer-content">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <div class="footer-about">
+              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+                است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط
+                فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشده،لورم
+                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+                تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشده،</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-3">
+            <h2>دسترسی سریع</h2>
+            <ul>
+              <li><a href="">صفحه اصلی</a></li>
+              <li><a href="">دوره ها</a></li>
+              <li><a href="">درباره ما</a></li>
+              <li><a href="">تماس با ما</a></li>
+              <li><a href="">شکایات</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-3">
+            <h2>لینک های داغ</h2>
+            <ul>
+              <li><a href="">ٌفحه اصلی</a></li>
+              <li><a href="">دوره ها</a></li>
+              <li><a href="">درباره ما</a></li>
+              <li><a href="">تماس با ما</a></li>
+              <li><a href="">شکایات</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-form">
+      <div class="container">
+        <div class="row border-top pt-5">
+          <div class="col-12">
+            <form action="">
+              <input type="email" placeholder="عضویت در خبرنامه">
+              <button>عضویت</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-social pt-5">
+      <div class="container">
+        <div class="row border-top pt-5">
+          <div class="col-12">
+            <ul>
+              <li><a href=""><i class="fab fa-instagram"></i></a></li>
+              <li><a href=""><i class="fab fa-youtube"></i></a></li>
+              <li><a href=""><i class="fab fa-twitter"></i></a></li>
+              <li><a href=""><i class="fab fa-facebook"></i></a></li>
+              <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="copy-right  pt-5">
+      <p class="border-top pt-5">
+        تمام حقوق مادی و معنوی این وب سایت محفوظ میباشد.
+      </p>
+    </div>
+
+  </footer>
+
+
+  <script src="./js/jquery.js"></script>
+  <script src="./js/owl.carousel.min.js"></script>
   <script src="./js/all.min.js"></script>
-  <script src="./app.js"></script>
+  <script src="./js/app.js"></script>
+  <script src="./js/jquery.counterup.min.js"></script>
+  <script src="./js/jquery.waypoints.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.owl-carousel').owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2500,
+        rtl: true,
+        responsive: {
+          1200: {
+            items: 4
+          },
+          992: {
+            items: 3
+          },
+          768: {
+            items: 2
+          },
+          250: {
+            items: 1
+          }
+        }
+      });
+    });
+
+    jQuery(document).ready(function ($) {
+      $('.counter').counterUp({
+        delay: 10,
+        time: 2500
+      });
+    });
+  </script>
 </body>
 
 </html>
